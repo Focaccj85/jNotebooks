@@ -7,9 +7,16 @@ dependencies:
   - psutil
   - toolz
   - matplotlib
+  - seaborn
   - dill
   - pandas
   - partd
   - bokeh
   - dask
   - scipy
+  - qiskit
+  - jupyterlab
+  - pip                    # Pip for additional dependencies
+  - pip:
+      - qiskit-aer         # Qiskit Aer for simulators
+      - qiskit-ibmq-provider # IBM Q API package
